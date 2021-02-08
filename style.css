@@ -1,9 +1,7 @@
- 
-
 .spacer {
-    color:darkorange;
-    margin-left: 35px;
-    margin-right: 35px
+         color:darkorange;
+         margin-left: 35px;
+         margin-right: 35px
     }
 
 .center {
@@ -11,7 +9,7 @@
          margin-left: auto;
          margin-right: auto;
          width: 65%;
-        }
+    }
 
 .body_font {
         margin-top: 50px;
@@ -23,9 +21,9 @@
         color:darkorange;
         outline-color: whitesmoke;
     
-    }
+     }
  
-.bc {
+.bc    {
         background-color: black;
         width: 366;
         height: 526;
@@ -34,7 +32,7 @@
         margin-right: auto;
         width: auto; 
     }
-.nav {
+.nav   {
         color: darkorange;
         display:block;
         margin-left: auto;
@@ -46,21 +44,21 @@
         position: static;
         bottom: 0; 
         width: 100%;
-}
+    }
 
-ul{
+ul      {
         color:whitesmoke;
         font-size: 12px;
     
-}
+    }
 
 .white {
         color:whitesmoke;
-}
+    }
 
 .bcalt {
         background-color: darkorange;
-}
+    }
 
 .center_white {
                color:whitesmoke;
@@ -68,7 +66,4 @@ ul{
                margin-left: auto;
                margin-right: auto;
                width: 50%;
-}
-
-
-    
+    }
