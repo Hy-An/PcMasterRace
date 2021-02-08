@@ -1,0 +1,54 @@
+ 
+
+ .spacer {
+    color:darkorange;
+    margin-left: 35px;
+    margin-right: 35px
+    }
+
+ .center {
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         width: 65%;
+        }
+
+ .body_font {
+        margin-top: 50px;
+        margin-left: 10mm;
+        margin-right: 10mm;
+        padding-block: 5;
+        border-width: 8px;
+        font-size: 12pt;
+        color:darkorange;
+        outline-color: whitesmoke;
+    
+    }
+ 
+ .backgroundclr {
+        background-color: black;
+        width: 366;
+        height: 526;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto; 
+    }
+.nav {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%
+}
+.footerz{
+    position: static;
+    bottom: 0; 
+    width: 100%;
+}
+
+ul{
+    color:whitesmoke;
+    font-size: 12px;
+    
+}
+    }
