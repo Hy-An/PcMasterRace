@@ -1,14 +1,14 @@
 .spacer {
-         color:darkorange;
-         margin-left: 35px;
-         margin-right: 35px
+        color:darkorange;
+        margin-left: 35px;
+        margin-right: 35px
     }
 
 .center {
-         display: block;
-         margin-left: auto;
-         margin-right: auto;
-         width: 65%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 65%;
     }
 
 .body_font {
@@ -22,6 +22,15 @@
         outline-color: whitesmoke;
     
      }
+.body_font2 {
+        margin-top: 50px;
+        padding-block: 5;
+        font-size: 12pt;
+        color: darkorange;
+        outline-color: whitesmoke;
+        display: flex;
+        flex-direction: column
+    }
  
 .bc    {
         background-color: black;
@@ -34,11 +43,11 @@
     }
 .nav   {
         color: darkorange;
-        display:block;
+        display:flex;
         margin-left: auto;
         margin-right: auto;
-        width: 50%;
         padding: 10px;
+        justify-content: center;
     }
 .footerz{
         position: static;
@@ -58,12 +67,51 @@ ul      {
 
 .bcalt {
         background-color: darkorange;
-    }
+       }
 
 .center_white {
-               color:whitesmoke;
-               display:block;
-               margin-left: auto;
-               margin-right: auto;
-               width: 50%;
-    }
+        color:whitesmoke;
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        }
+
+#box-container {
+        background: black;
+        display: flex;
+        flex-direction: row;
+        max-width: 100%;
+        height: 1000px;
+        }
+
+#box-1 {
+        width: 25%;
+        height: 100%;
+        }
+
+#box-2 {
+       width: 75%;
+       height: 100%;
+       }
+
+.box-img{
+        display:flex;
+        flex-direction: row;
+        max-width: 1lfr; 
+        }
+.box-box{
+        display:flex;
+        flex-direction: column;
+        max-width: 1lfr;
+        max-height: 1lfr;
+        margin: 5px 5px 5px 5px;
+}       
+.main-box{
+        display:flex;
+        flex-direction: column;
+        margin-top: 200px;
+
+}
+img {max-width:100%;}
+img {max-height:100%;}
