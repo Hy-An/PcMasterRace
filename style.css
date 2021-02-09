@@ -50,7 +50,6 @@
         justify-content: center;
     }
 .footerz{
-        position:;
         bottom: 0; 
         width: 100%;
     }
@@ -107,15 +106,15 @@ ul      {
 .box-img{
         display:flex;
         flex-direction: row;
-        max-width: 400px;
+        max-width: 1lfr;
         margin-top: 25px;
         margin-bottom: 25px;
         }
 .box-box{
         display:flex;
         flex-direction: column;
-        max-width: 400px;
-        max-height: 400px;
+        max-width: 1lfr;
+        max-height: 1lfr;
         margin: 10px 10px 10px 10px;
         
 }       
