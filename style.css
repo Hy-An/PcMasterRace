@@ -49,6 +49,16 @@
         padding: 10px;
         justify-content: center;
     }
+.nav2   {
+        color: darkorange;
+        display:flex;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        justify-content: center;
+        text-decoration:underline;
+        text-decoration-color: whitesmoke;
+    }
 .footerz{
         bottom: 0; 
         width: 100%;
@@ -107,8 +117,7 @@ ul      {
         display:flex;
         flex-direction: row;
         max-width: 1lfr;
-        margin-top: 25px;
-        margin-bottom: 25px;
+        margin: 10px 10px 10px 10px;
         }
 .box-box{
         display:flex;
@@ -116,12 +125,23 @@ ul      {
         max-width: 1lfr;
         max-height: 1lfr;
         margin: 10px 10px 10px 10px;
-        
-}       
+        }      
+.imag   {
+        margin: 20px 20px 20px 20px;
+        width: 400px;
+        height: 400px;
+        alt:"Una pc gamer";
+        } 
+.brillito{
+         margin: 20px 20px 20px 20px;
+         width: 400px;
+         height: 200px;
+         alt:"Brillitos";
+        } 
 .main-box{
         display:flex;
         flex-direction: column;
-        margin-top: 200px;
+        margin-top: 300px;
 
 }
 .foot-box{
