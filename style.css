@@ -101,10 +101,12 @@ ul      {
 #box-container {
         background: black;
         display: flex;
-        flex-direction: row;
-        max-width: 100%;
-        height: 1000px;
-        justify-content: space-between
+        flex-flow: row wrap;
+        max-width: 1fr;
+        height: 1fr;
+        min-width: 400px;
+        min-height: 400px;
+        justify-content: space-evenly
         }
 #box-container2 {
                  background: black;
@@ -125,26 +127,34 @@ ul      {
 
 .box-img{
         display:flex;
-        flex-direction: row;
+        flex-flow: row wrap;
         justify-content:space-around;
         align-content: space-around;
         max-width: 100%;
-        margin: 10px 10px 10px 10px;
+        min-width: 100px;
+        min-height: 100px;
         }
 .box-box{
         display:flex;
         flex-flow: column wrap;
         max-width: 1lfr;
         max-height: 1lfr;
+        min-width: 100px;
+        min-height: 100px;
         margin: 10px 10px 10px 10px;
         }      
 .imag   {
-        margin: 20px 20px 20px 20px;
+        margin: 10px 10px 10px 10px;
         width: 400px;
         height: 400px;
         max-width: 400px;
+        max-width: 1fr;
+        max-height: 1fr;
+        min-width: 100px;
+        min-height: 100px;
         alt:"Una pc gamer";
         display:flex;
+        flex-flow: column wrap;
         justify-content:space-evenly;
         } 
 .brillito{
@@ -161,7 +171,7 @@ ul      {
 .main-box{
         display:flex;
         flex-direction: column;
-        margin-top: 300px;
+        margin-top: 50px;
         }
 .foot-box{
         display:flex;
